@@ -24,6 +24,14 @@ const PaymentGatewayTwo = () => {
                 24/7 customer support, you can easily accept payments from
                 customers all over the world.
               </div>
+              <div className="button-block">
+                <Link
+                  className="button-main bg-black hover:bg-black text-white bg-blue rounded-full"
+                  href="/"
+                >
+                  Get Started
+                </Link>
+              </div>
             </div>
           </div>
         </div>
