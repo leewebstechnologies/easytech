@@ -5,6 +5,7 @@ import Service from "@/components/service/Service"
 import serviceData from "@/data/service.json";
 import PaymentGateway from "@/components/PaymentGateway/PaymentGateway";
 import CaseStudy from "../components/CaseStudy/CaseStudy";
+import PaymentGatewayTwo from "@/components/PaymentGateway/PaymentGatewayTwo";
 
 
 const Homepage = () => {
@@ -19,6 +20,7 @@ const Homepage = () => {
         <Service data={serviceData}/>
         <PaymentGateway />
         <CaseStudy />
+        <PaymentGatewayTwo />
       </main>     
     </div>
   )
