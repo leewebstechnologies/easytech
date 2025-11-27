@@ -16,8 +16,11 @@ const Service = ({data}) => {
               <ServiceItem data={item} key={index} number={index} />
             ))
           }
+
         </div>
+
       </div>
+
     </section>
   )
 }
