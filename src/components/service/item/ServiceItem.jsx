@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const ServiceItem = ({data, number}: { data: { icon: string; title: string }, number: number }) => {
+const ServiceItem = ({data, number}) => {
   return (
     <div className="service-item p-8 bg-white rounded-lg border border-line hover-box-shadow">
       <Link className='service-item-main h-full' href={'/'}>
