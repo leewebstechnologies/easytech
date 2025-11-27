@@ -31,7 +31,7 @@ const Topnav = () => {
             </Link>
             <Link
               className="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
-              href="https://www.linkedin.com/in/aliu-ajibade-a43210139/"
+              href="https://www.linkedin.com/in/aliu-ajibade-a43210139"
               target="_blank"
             >
               <i className="icon-in text-sm"></i>
