@@ -3,7 +3,7 @@ import { useRef } from "react";
 import ServiceItem from "./item/ServiceItem";
 import { useInView } from "framer-motion";
 
-const Service = ({data}) => {
+const Service = ({ data }: { data: unknown[] }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true})
   return (
