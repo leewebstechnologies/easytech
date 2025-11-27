@@ -63,12 +63,12 @@ const Menu = () => {
             </li>
             <li
               className={`nav-item h-full flex items-center justify-center home ${
-                pathname === "/case-studies" ? "active" : ""
+                pathname === "/case" ? "active" : ""
               }`}
             >
               <Link
                 className="nav-link text-title flex items-center gap-1"
-                href="/case-studies"
+                href="/case"
               >
                 <span>Case Studies</span>
               </Link>
