@@ -3,7 +3,7 @@ import { useRef } from "react";
 import ServiceItem from "./item/ServiceItem";
 import { useInView } from "framer-motion";
 
-const Service = ({ data }: { data: unknown[] }) => {
+const Service = ({data}) => {
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true})
   return (
@@ -16,11 +16,8 @@ const Service = ({ data }: { data: unknown[] }) => {
               <ServiceItem data={item} key={index} number={index} />
             ))
           }
-
         </div>
-
       </div>
-
     </section>
   )
 }
