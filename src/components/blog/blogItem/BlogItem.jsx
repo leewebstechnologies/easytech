@@ -24,7 +24,7 @@ const BlogItem = ({data,key}) => {
             <div className="caption2 py-1 px-3 bg-surface rounded-full inline-block capitalize bg-blue-100">
               {data.category}
             </div>
-            <div className="heading-6 mt-2">{data.title}</div>
+            <div className="heading6 mt-2">{data.title}</div>
             <div className="date flex items-center gap-4 mt-2">
               <div className="author caption2 text-secondary">
                 by <span className="text-on-surface">{data.author}</span>
