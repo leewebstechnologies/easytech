@@ -10,6 +10,8 @@ import PaymentGatewayTwo from "@/components/PaymentGateway/PaymentGatewayTwo";
 import FormRequest from "../components/FormRequest/FormRequest";
 import Testimonial from './../components/testimonial/Testimonial';
 import Blog from './../components/blog/Blog';
+import Partner from './../components/partner/Partner';
+import Footer from './../components/footer/Footer';
 
 
 const Homepage = () => {
@@ -28,8 +30,12 @@ const Homepage = () => {
         <FormRequest />
         <Testimonial />
         <Blog data={blogData} />
+      </main> 
+      <Partner className="lg:mt-[100px] sm:mt-16 mt-10" />
+      <footer id="footer">
+        <Footer />
 
-      </main>     
+      </footer>
     </div>
   )
 }

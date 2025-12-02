@@ -48,7 +48,7 @@ const Topnav = () => {
               href="https://www.instagram.com/leewebs2020"
               target="_blank"
             >
-              <i className="icon-twitter text-[10px]"></i>
+              <i className="icon-insta text-[10px]"></i>
             </Link>
             <Link
               className="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
